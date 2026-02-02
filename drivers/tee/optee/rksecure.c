@@ -13,7 +13,7 @@
 #include "optee_private.h"
 #include "pta_rk_secure_boot.h"
 
-const uuid_t ta_uuid = PTA_RK_SECURE_BOOT_UUID;
+static const uuid_t ta_uuid = PTA_RK_SECURE_BOOT_UUID;
 
 static int optee_ctx_match(struct tee_ioctl_version_data *ver, const void *data)
 {
